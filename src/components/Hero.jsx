@@ -34,7 +34,9 @@ export default function Hero({ featuredProject }) {
 
         <div className="relative min-h-[440px] lg:min-h-[580px]">
           <div className="absolute left-0 top-0 z-10 w-40 border border-line bg-paper p-3 text-ink sm:w-52">
-            <img className="mb-4 h-auto w-full object-contain" src="/brand/minha-logo.svg" alt="Paulo Henrique Mendes" />
+            <div className="mb-4 grid h-16 w-16 place-items-center border border-line bg-white p-3">
+              <img className="h-full w-full object-contain" src="/brand/simbolo.svg" alt="Símbolo Paulo Henrique Mendes" />
+            </div>
             <p className="text-xs font-bold uppercase tracking-[0.2em] text-muted">Do Briefing ao Deploy</p>
             <p className="mt-3 text-2xl font-black leading-none">Marca com conceito, aplicação e presença digital.</p>
           </div>

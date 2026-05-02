@@ -10,11 +10,11 @@ const links = [
 
 export default function Footer() {
   return (
-    <footer className="border-t border-line bg-paper px-5 py-10 lg:px-8">
+    <footer className="border-t border-paper/10 bg-ink px-5 py-10 text-paper lg:px-8">
       <div className="mx-auto flex max-w-7xl flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
         <div>
-          <BrandLogo className="[&>span:first-child]:border-line" />
-          <p className="mt-2 max-w-xl text-muted">Design gráfico, criação de marcas, identidade visual e experiências digitais em construção.</p>
+          <BrandLogo />
+          <p className="mt-2 max-w-xl text-paper/65">Design gráfico, criação de marcas, identidade visual e experiências digitais em construção.</p>
         </div>
         <div className="flex flex-wrap gap-3">
           {links.map(([label, href]) => (
