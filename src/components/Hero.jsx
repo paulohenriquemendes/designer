@@ -8,7 +8,7 @@ export default function Hero({ featuredProject }) {
 
   return (
     <section id="inicio" className="relative overflow-hidden bg-ink pt-28 text-paper lg:pt-32">
-      <img className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-[0.08] mix-blend-screen" src="/brand/ph-brand-full.png" alt="" aria-hidden="true" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_82%_18%,rgba(141,213,244,0.2),transparent_28%),linear-gradient(135deg,rgba(255,255,255,0.08),transparent_34%)]" />
       <div className="absolute inset-x-0 top-0 h-1 bg-[linear-gradient(90deg,#8DD5F4,#ffffff,#1C5D99,#8DD5F4)]" />
       <div className="mx-auto grid max-w-7xl gap-12 px-5 pb-20 pt-10 lg:grid-cols-[1.05fr_0.95fr] lg:px-8 lg:pb-24">
         <div className="animate-reveal">
@@ -36,7 +36,7 @@ export default function Hero({ featuredProject }) {
 
         <div className="relative min-h-[440px] animate-reveal lg:min-h-[580px]" style={{ animationDelay: '120ms' }}>
           <div className="absolute left-0 top-0 z-10 w-40 border border-paper/15 bg-paper p-3 text-ink shadow-premium sm:w-52">
-            <img className="mb-4 h-14 w-14 object-contain" src="/brand/ph-symbol.png" alt="Simbolo PH" />
+            <img className="mb-4 h-auto w-full object-contain" src="/brand/minha-logo.svg" alt="Paulo Henrique Mendes" />
             <p className="text-xs font-bold uppercase tracking-[0.2em] text-muted">Do Briefing ao Deploy</p>
             <p className="mt-3 text-2xl font-black leading-none">Marca que nasce estrategica e vive no digital.</p>
           </div>
