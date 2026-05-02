@@ -39,11 +39,12 @@ npm run sync:behance
 
 Para atualizar no Vercel, rode o script antes do commit ou adicione `npm run sync:behance && npm run build` como Build Command.
 
-## Campos pendentes
+## Campos de contato
 
-Substitua estes placeholders nos arquivos de contato:
+Os links de contato usam:
 
-- `COLE_AQUI_SEU_EMAIL`
+- WhatsApp: `+55 85 99299-4767`
+- E-mail: `paulohenriquedeoliveiramendes@gmail.com`
 
 Arquivos principais:
 

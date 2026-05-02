@@ -1,7 +1,7 @@
 import { Mail, MessageCircle, Send } from 'lucide-react'
 
 const WHATSAPP_NUMBER = '5585992994767'
-const EMAIL = 'COLE_AQUI_SEU_EMAIL'
+const EMAIL = 'paulohenriquedeoliveiramendes@gmail.com'
 
 export default function Contato() {
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent('Ola, Paulo! Quero solicitar um orcamento de identidade visual.')}`

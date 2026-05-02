@@ -4,7 +4,7 @@ import BrandLogo from './BrandLogo.jsx'
 const links = [
   ['Behance', 'https://www.behance.net/phmendes'],
   ['WhatsApp', 'https://wa.me/5585992994767'],
-  ['E-mail', 'mailto:COLE_AQUI_SEU_EMAIL'],
+  ['E-mail', 'mailto:paulohenriquedeoliveiramendes@gmail.com'],
   ['GitHub', 'https://github.com/paulohenriquemendes'],
 ]
 
