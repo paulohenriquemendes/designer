@@ -69,10 +69,18 @@ npm run sync:behance && npm run build
 
 ## GitHub Pages
 
-Este projeto tambem pode publicar no GitHub Pages. Para isso, ajuste o `base` em `vite.config.js` caso o nome do repositorio seja diferente de `design-site`, ou use a variavel:
+Este projeto esta preparado para publicar como site de projeto, sem mexer no site raiz `paulohenriquemendes.github.io`.
+
+URL esperada:
+
+```text
+https://paulohenriquemendes.github.io/designer/
+```
+
+O `base` do Vite usa `/designer/` quando a variavel `GITHUB_PAGES` esta ativa:
 
 ```bash
 GITHUB_PAGES=true npm run build
 ```
 
-Depois publique a pasta `dist` via GitHub Actions ou ferramenta de deploy de sua preferencia.
+Crie um repositorio chamado `designer`, publique este projeto nele e ative o GitHub Pages desse repositorio. Isso cria uma URL de projeto e nao altera o repositorio raiz `paulohenriquemendes.github.io`.
