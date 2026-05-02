@@ -1,4 +1,4 @@
-const steps = ['Briefing', 'Pesquisa e conceito', 'Criacao visual', 'Apresentacao', 'Ajustes', 'Entrega final']
+const steps = ['Briefing', 'Pesquisa e conceito', 'Criação visual', 'Apresentação', 'Ajustes', 'Entrega final']
 
 export default function Processo() {
   return (

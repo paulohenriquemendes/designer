@@ -4,8 +4,8 @@ const WHATSAPP_NUMBER = '5585992994767'
 const EMAIL = 'paulohenriquedeoliveiramendes@gmail.com'
 
 export default function Contato() {
-  const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent('Ola, Paulo! Quero solicitar um orcamento de identidade visual.')}`
-  const mailto = `mailto:${EMAIL}?subject=${encodeURIComponent('Orcamento de identidade visual')}`
+  const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent('Olá, Paulo! Quero solicitar um orçamento de identidade visual.')}`
+  const mailto = `mailto:${EMAIL}?subject=${encodeURIComponent('Orçamento de identidade visual')}`
 
   return (
     <section id="contato" className="section bg-ink text-paper">
@@ -14,7 +14,7 @@ export default function Contato() {
           <p className="eyebrow text-brass">Contato</p>
           <h2 className="section-title">Vamos conversar sobre sua identidade visual?</h2>
           <p className="mt-6 text-lg leading-8 text-paper/70">
-            Solicite um orcamento ou me chame para entender como sua marca pode ganhar mais consistencia, presenca e expressao visual.
+            Solicite um orçamento ou me chame para entender como sua marca pode ganhar mais consistência, presença e expressão visual.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a className="button-primary" href={whatsappUrl} target="_blank" rel="noreferrer">
@@ -35,7 +35,7 @@ export default function Contato() {
           </label>
           <label>
             E-mail
-            <input name="email" type="email" placeholder="voce@email.com" />
+            <input name="email" type="email" placeholder="seu@email.com" />
           </label>
           <label>
             Mensagem

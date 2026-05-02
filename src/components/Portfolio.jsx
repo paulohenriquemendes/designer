@@ -24,8 +24,8 @@ export default function Portfolio({ projects, loading, error, onOpenProject }) {
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
         <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
           <div>
-            <p className="eyebrow">Portfolio integrado ao Behance</p>
-            <h2 className="section-title max-w-4xl">Projetos reais de marcas, brasoes e identidades visuais.</h2>
+            <p className="eyebrow">Portfólio integrado ao Behance</p>
+            <h2 className="section-title max-w-4xl">Projetos reais de marcas, brasões e identidades visuais.</h2>
           </div>
           <div className="flex w-full flex-col gap-3 lg:w-[430px]">
             <label className="search-box">

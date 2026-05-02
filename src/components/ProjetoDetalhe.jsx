@@ -45,7 +45,7 @@ export default function ProjetoDetalhe({ project, onClose }) {
             <dl className="mt-8 grid gap-4 border-y border-line py-6 sm:grid-cols-[0.4fr_1fr]">
               <div>
                 <dt className="text-xs font-bold uppercase tracking-[0.2em] text-muted">Data</dt>
-                <dd className="mt-1 font-semibold">{project.date || 'Nao informada'}</dd>
+                <dd className="mt-1 font-semibold">{project.date || 'Não informada'}</dd>
               </div>
               <div>
                 <dt className="text-xs font-bold uppercase tracking-[0.2em] text-muted">Tags</dt>

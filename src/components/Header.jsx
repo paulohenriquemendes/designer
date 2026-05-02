@@ -2,13 +2,13 @@ import { MessageCircle, Menu, X } from 'lucide-react'
 import { useState } from 'react'
 import BrandLogo from './BrandLogo.jsx'
 
-const whatsappUrl = `https://wa.me/5585992994767?text=${encodeURIComponent('Ola, Paulo! Quero conversar sobre um projeto de identidade visual.')}`
+const whatsappUrl = `https://wa.me/5585992994767?text=${encodeURIComponent('Olá, Paulo! Quero conversar sobre um projeto de identidade visual.')}`
 
 const navItems = [
-  ['Inicio', '#inicio'],
+  ['Início', '#inicio'],
   ['Sobre', '#sobre'],
-  ['Portfolio', '#portfolio'],
-  ['Servicos', '#servicos'],
+  ['Portfólio', '#portfolio'],
+  ['Serviços', '#servicos'],
   ['Processo', '#processo'],
   ['Contato', '#contato'],
 ]
@@ -17,7 +17,7 @@ export default function Header() {
   const [open, setOpen] = useState(false)
 
   return (
-    <header className="fixed inset-x-0 top-0 z-40 border-b border-white/10 bg-ink/88 text-paper backdrop-blur-xl">
+    <header className="fixed inset-x-0 top-0 z-40 border-b border-white/10 bg-ink text-paper">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8" aria-label="Menu principal">
         <a href="#inicio" className="group flex items-center gap-3">
           <BrandLogo />

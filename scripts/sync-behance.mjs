@@ -102,7 +102,7 @@ function extractProjects(profileHtml) {
       title,
       description: fallback?.description || `Projeto de ${inferCategory(title).toLowerCase()} publicado no Behance de Paulo Henrique Mendes.`,
       category: fallback?.category || inferCategory(title, fallback?.tags),
-      tags: fallback?.tags || ['design grafico', 'identidade visual', 'marca'],
+      tags: fallback?.tags || ['design gráfico', 'identidade visual', 'marca'],
       date: fallback?.date || '',
       cover,
       images: cover ? [cover] : [],
@@ -129,7 +129,7 @@ async function enrichProject(project) {
       images: usableImages.length ? usableImages : project.images,
     }
   } catch (error) {
-    console.warn(`Nao foi possivel enriquecer ${project.title}: ${error.message}`)
+    console.warn(`Não foi possível enriquecer ${project.title}: ${error.message}`)
     return project
   }
 }

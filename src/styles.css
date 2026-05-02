@@ -24,7 +24,7 @@ body {
   }
 
   .section-title {
-    @apply text-4xl font-black leading-[1.02] sm:text-5xl lg:text-6xl;
+    @apply text-4xl font-black leading-[1.04] sm:text-5xl lg:text-6xl;
   }
 
   .eyebrow {
@@ -62,7 +62,7 @@ body {
   }
 
   .service-card {
-    @apply animate-reveal border border-paper/10 bg-white/5 p-7 transition duration-300 hover:-translate-y-1 hover:bg-white/10;
+    @apply border border-paper/10 bg-white/5 p-7 transition duration-200 hover:bg-white/10;
   }
 
   .search-box {
@@ -82,7 +82,7 @@ body {
   }
 
   .project-card {
-    @apply overflow-hidden border border-line bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-premium;
+    @apply overflow-hidden border border-line bg-white transition duration-200 hover:border-ink/40;
   }
 
   .tag {

@@ -1,11 +1,11 @@
 import { BadgeCheck, Brush, FileText, Globe2, LayoutGrid, PenTool } from 'lucide-react'
 
 const services = [
-  ['Criacao de marcas', 'Logotipos, simbolos e assinaturas com criterio visual e estrategia.', PenTool],
-  ['Identidade visual', 'Sistemas completos com cores, tipografia, grafismos e aplicacoes.', BadgeCheck],
-  ['Design para redes sociais', 'Pecas consistentes para posicionamento, campanhas e lancamentos.', LayoutGrid],
-  ['Materiais graficos', 'Apresentacoes, papelaria, impressos e materiais institucionais.', FileText],
-  ['Landing pages', 'Paginas objetivas para apresentar marcas, servicos e campanhas.', Globe2],
+  ['Criação de marcas', 'Logotipos, símbolos e assinaturas com critério visual e estratégia.', PenTool],
+  ['Identidade visual', 'Sistemas completos com cores, tipografia, grafismos e aplicações.', BadgeCheck],
+  ['Design para redes sociais', 'Peças consistentes para posicionamento, campanhas e lançamentos.', LayoutGrid],
+  ['Materiais gráficos', 'Apresentações, papelaria, impressos e materiais institucionais.', FileText],
+  ['Landing pages', 'Páginas objetivas para apresentar marcas, serviços e campanhas.', Globe2],
   ['Design web', 'Interfaces limpas, responsivas e conectadas a identidade da marca.', Brush],
 ]
 
@@ -15,11 +15,11 @@ export default function Servicos() {
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
         <div className="flex flex-col justify-between gap-6 lg:flex-row lg:items-end">
           <div>
-            <p className="eyebrow text-brass">Servicos</p>
+            <p className="eyebrow text-brass">Serviços</p>
             <h2 className="section-title max-w-3xl">Da marca ao ponto de contato.</h2>
           </div>
           <p className="max-w-xl text-lg leading-8 text-paper/68">
-            Projetos visuais pensados para manter coerencia entre a primeira impressao, o material de venda e a presenca digital.
+            Projetos visuais pensados para manter coerência entre a primeira impressão, o material de venda e a presença digital.
           </p>
         </div>
 

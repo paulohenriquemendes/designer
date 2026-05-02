@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="mx-auto flex max-w-7xl flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
         <div>
           <BrandLogo className="[&>span:first-child]:border-line" />
-          <p className="mt-2 max-w-xl text-muted">Design grafico, criacao de marcas, identidade visual e experiencias digitais em construcao.</p>
+          <p className="mt-2 max-w-xl text-muted">Design gráfico, criação de marcas, identidade visual e experiências digitais em construção.</p>
         </div>
         <div className="flex flex-wrap gap-3">
           {links.map(([label, href]) => (
