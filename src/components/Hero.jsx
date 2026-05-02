@@ -34,11 +34,13 @@ export default function Hero({ featuredProject }) {
 
         <div className="relative min-h-[440px] lg:min-h-[580px]">
           <div className="absolute left-0 top-0 z-10 w-40 border border-line bg-paper p-3 text-ink sm:w-52">
-            <div className="mb-4 grid h-16 w-16 place-items-center border border-line bg-white p-3">
+            <div className="mb-4 grid h-16 w-16 place-items-center bg-ink p-3">
               <img className="h-full w-full object-contain" src="/brand/simbolo.svg" alt="Símbolo Paulo Henrique Mendes" />
             </div>
-            <p className="text-xs font-bold uppercase tracking-[0.2em] text-muted">Do Briefing ao Deploy</p>
-            <p className="mt-3 text-2xl font-black leading-none">Marca com conceito, aplicação e presença digital.</p>
+            <div className="bg-ink p-3">
+              <p className="text-xs font-bold uppercase tracking-[0.2em] text-signal">Do Briefing ao Deploy</p>
+              <p className="mt-3 text-2xl font-black leading-none text-signal">Marca com conceito, aplicação e presença digital.</p>
+            </div>
           </div>
           <div className="absolute right-0 top-10 h-[74%] w-[82%] overflow-hidden border border-paper/15 bg-graphite">
             <img
@@ -47,9 +49,11 @@ export default function Hero({ featuredProject }) {
               alt={featuredProject?.title || 'Projeto de identidade visual de Paulo Henrique Mendes'}
             />
           </div>
-          <div className="absolute bottom-0 left-8 right-8 z-20 border border-line bg-paper p-5 text-ink sm:left-16">
-            <p className="text-sm font-bold uppercase tracking-[0.22em] text-signal">Projeto em destaque</p>
-            <h2 className="mt-2 text-2xl font-black">{featuredProject?.title || 'Identidade visual'}</h2>
+          <div className="absolute bottom-0 left-8 right-8 z-20 border border-line bg-paper p-4 text-ink sm:left-16">
+            <div className="bg-ink p-4">
+              <p className="text-sm font-bold uppercase tracking-[0.22em] text-signal">Projeto em destaque</p>
+              <h2 className="mt-2 text-2xl font-black text-signal">{featuredProject?.title || 'Identidade visual'}</h2>
+            </div>
           </div>
         </div>
       </div>
