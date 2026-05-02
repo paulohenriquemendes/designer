@@ -1,6 +1,6 @@
 import { Mail, MessageCircle, Send } from 'lucide-react'
 
-const WHATSAPP_NUMBER = 'COLE_AQUI_SEU_NUMERO_COM_DDI'
+const WHATSAPP_NUMBER = '5585992994767'
 const EMAIL = 'COLE_AQUI_SEU_EMAIL'
 
 export default function Contato() {

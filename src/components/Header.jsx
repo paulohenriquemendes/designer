@@ -1,6 +1,8 @@
-import { ArrowUpRight, Menu, X } from 'lucide-react'
+import { MessageCircle, Menu, X } from 'lucide-react'
 import { useState } from 'react'
 import BrandLogo from './BrandLogo.jsx'
+
+const whatsappUrl = `https://wa.me/5585992994767?text=${encodeURIComponent('Ola, Paulo! Quero conversar sobre um projeto de identidade visual.')}`
 
 const navItems = [
   ['Inicio', '#inicio'],
@@ -29,9 +31,9 @@ export default function Header() {
           ))}
         </div>
 
-        <a className="hidden items-center gap-2 rounded-full bg-paper px-5 py-3 text-sm font-bold text-ink transition hover:bg-signal hover:text-ink lg:flex" href="#portfolio">
-          Ver portfolio
-          <ArrowUpRight size={16} />
+        <a className="hidden items-center gap-2 rounded-full bg-paper px-5 py-3 text-sm font-bold text-ink transition hover:bg-signal hover:text-ink lg:flex" href={whatsappUrl} target="_blank" rel="noreferrer">
+          Chamar no WhatsApp
+          <MessageCircle size={16} />
         </a>
 
         <button className="icon-button lg:hidden" type="button" aria-label="Abrir menu" onClick={() => setOpen(true)}>
@@ -53,9 +55,9 @@ export default function Header() {
                 {label}
               </a>
             ))}
-            <a className="mt-4 inline-flex w-fit items-center gap-2 rounded-full bg-paper px-5 py-3 font-bold text-ink" href="#portfolio" onClick={() => setOpen(false)}>
-              Ver portfolio
-              <ArrowUpRight size={18} />
+            <a className="mt-4 inline-flex w-fit items-center gap-2 rounded-full bg-paper px-5 py-3 font-bold text-ink" href={whatsappUrl} target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
+              Chamar no WhatsApp
+              <MessageCircle size={18} />
             </a>
           </div>
         </div>

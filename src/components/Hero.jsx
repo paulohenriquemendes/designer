@@ -1,7 +1,7 @@
 import { ArrowDownRight, MessageCircle } from 'lucide-react'
 import BrandLogo from './BrandLogo.jsx'
 
-const WHATSAPP_NUMBER = 'COLE_AQUI_SEU_NUMERO_COM_DDI'
+const WHATSAPP_NUMBER = '5585992994767'
 
 export default function Hero({ featuredProject }) {
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent('Ola, Paulo! Quero conversar sobre um projeto de identidade visual.')}`

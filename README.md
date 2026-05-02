@@ -43,7 +43,6 @@ Para atualizar no Vercel, rode o script antes do commit ou adicione `npm run syn
 
 Substitua estes placeholders nos arquivos de contato:
 
-- `COLE_AQUI_SEU_NUMERO_COM_DDI`
 - `COLE_AQUI_SEU_EMAIL`
 
 Arquivos principais:
