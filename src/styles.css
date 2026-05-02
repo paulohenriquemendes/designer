@@ -10,12 +10,12 @@ html {
 body {
   margin: 0;
   font-family: Inter, ui-sans-serif, system-ui, sans-serif;
-  background: #f8f7f2;
+  background: #ffffff;
 }
 
 ::selection {
-  background: #ff5a3d;
-  color: #fff;
+  background: #8dd5f4;
+  color: #071b33;
 }
 
 @layer components {
@@ -42,7 +42,7 @@ body {
   }
 
   .button-primary {
-    @apply bg-signal text-white hover:bg-paper hover:text-ink;
+    @apply bg-signal text-ink hover:bg-paper hover:text-ink;
   }
 
   .button-secondary {

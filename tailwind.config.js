@@ -4,22 +4,22 @@ export default {
   theme: {
     extend: {
       colors: {
-        ink: '#101010',
-        paper: '#f8f7f2',
-        graphite: '#242424',
-        muted: '#6f6d66',
-        line: '#dedbd0',
-        signal: '#ff5a3d',
-        cobalt: '#315cff',
-        moss: '#65724f',
-        brass: '#c49b52',
+        ink: '#071B33',
+        paper: '#ffffff',
+        graphite: '#102A44',
+        muted: '#647482',
+        line: '#D9E4EC',
+        signal: '#8DD5F4',
+        cobalt: '#1C5D99',
+        moss: '#EEF3F6',
+        brass: '#B9DDEF',
       },
       fontFamily: {
         display: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
         body: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       },
       boxShadow: {
-        premium: '0 28px 80px rgba(16,16,16,0.14)',
+        premium: '0 28px 80px rgba(7,27,51,0.16)',
       },
       keyframes: {
         reveal: {

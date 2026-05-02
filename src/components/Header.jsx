@@ -1,5 +1,6 @@
 import { ArrowUpRight, Menu, X } from 'lucide-react'
 import { useState } from 'react'
+import BrandLogo from './BrandLogo.jsx'
 
 const navItems = [
   ['Inicio', '#inicio'],
@@ -17,8 +18,7 @@ export default function Header() {
     <header className="fixed inset-x-0 top-0 z-40 border-b border-white/10 bg-ink/88 text-paper backdrop-blur-xl">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8" aria-label="Menu principal">
         <a href="#inicio" className="group flex items-center gap-3">
-          <span className="grid h-10 w-10 place-items-center border border-paper/20 bg-paper text-sm font-black text-ink">PH</span>
-          <span className="text-sm font-semibold uppercase tracking-[0.22em]">Paulo Henrique Mendes</span>
+          <BrandLogo />
         </a>
 
         <div className="hidden items-center gap-7 lg:flex">
@@ -29,7 +29,7 @@ export default function Header() {
           ))}
         </div>
 
-        <a className="hidden items-center gap-2 rounded-full bg-paper px-5 py-3 text-sm font-bold text-ink transition hover:bg-signal hover:text-white lg:flex" href="#portfolio">
+        <a className="hidden items-center gap-2 rounded-full bg-paper px-5 py-3 text-sm font-bold text-ink transition hover:bg-signal hover:text-ink lg:flex" href="#portfolio">
           Ver portfolio
           <ArrowUpRight size={16} />
         </a>
@@ -42,7 +42,7 @@ export default function Header() {
       {open && (
         <div className="fixed inset-0 z-50 bg-ink px-5 py-4 text-paper lg:hidden">
           <div className="flex items-center justify-between">
-            <span className="font-semibold uppercase tracking-[0.22em]">PH Mendes</span>
+            <BrandLogo />
             <button className="icon-button" type="button" aria-label="Fechar menu" onClick={() => setOpen(false)}>
               <X size={22} />
             </button>

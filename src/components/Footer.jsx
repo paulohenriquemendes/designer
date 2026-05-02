@@ -1,4 +1,5 @@
 import { ArrowUpRight } from 'lucide-react'
+import BrandLogo from './BrandLogo.jsx'
 
 const links = [
   ['Behance', 'https://www.behance.net/phmendes'],
@@ -12,7 +13,7 @@ export default function Footer() {
     <footer className="border-t border-line bg-paper px-5 py-10 lg:px-8">
       <div className="mx-auto flex max-w-7xl flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
         <div>
-          <p className="text-xl font-black">Paulo Henrique Mendes</p>
+          <BrandLogo className="text-ink [&>span:first-child]:border-ink/10 [&>span:first-child]:bg-moss" />
           <p className="mt-2 max-w-xl text-muted">Design grafico, criacao de marcas, identidade visual e experiencias digitais em construcao.</p>
         </div>
         <div className="flex flex-wrap gap-3">

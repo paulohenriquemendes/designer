@@ -1,4 +1,5 @@
 import { ArrowDownRight, MessageCircle } from 'lucide-react'
+import BrandLogo from './BrandLogo.jsx'
 
 const WHATSAPP_NUMBER = 'COLE_AQUI_SEU_NUMERO_COM_DDI'
 
@@ -7,10 +8,14 @@ export default function Hero({ featuredProject }) {
 
   return (
     <section id="inicio" className="relative overflow-hidden bg-ink pt-28 text-paper lg:pt-32">
-      <div className="absolute inset-x-0 top-0 h-1 bg-[linear-gradient(90deg,#ff5a3d,#315cff,#65724f,#c49b52)]" />
+      <img className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-[0.08] mix-blend-screen" src="/brand/ph-brand-full.png" alt="" aria-hidden="true" />
+      <div className="absolute inset-x-0 top-0 h-1 bg-[linear-gradient(90deg,#8DD5F4,#ffffff,#1C5D99,#8DD5F4)]" />
       <div className="mx-auto grid max-w-7xl gap-12 px-5 pb-20 pt-10 lg:grid-cols-[1.05fr_0.95fr] lg:px-8 lg:pb-24">
         <div className="animate-reveal">
-          <p className="mb-6 text-sm font-bold uppercase tracking-[0.34em] text-brass">Designer grafico / Branding / Web</p>
+          <div className="mb-8 inline-flex items-center gap-4 rounded-full border border-paper/15 bg-white/5 px-4 py-3 backdrop-blur">
+            <BrandLogo compact />
+            <p className="text-sm font-bold uppercase tracking-[0.24em] text-brass">Designer grafico / Branding / Web</p>
+          </div>
           <h1 className="max-w-5xl text-5xl font-black leading-[0.92] sm:text-7xl lg:text-[6.8rem]">
             Design grafico, marcas e experiencias visuais com proposito.
           </h1>
@@ -31,6 +36,7 @@ export default function Hero({ featuredProject }) {
 
         <div className="relative min-h-[440px] animate-reveal lg:min-h-[580px]" style={{ animationDelay: '120ms' }}>
           <div className="absolute left-0 top-0 z-10 w-40 border border-paper/15 bg-paper p-3 text-ink shadow-premium sm:w-52">
+            <img className="mb-4 h-14 w-14 object-contain" src="/brand/ph-symbol.png" alt="Simbolo PH" />
             <p className="text-xs font-bold uppercase tracking-[0.2em] text-muted">Do Briefing ao Deploy</p>
             <p className="mt-3 text-2xl font-black leading-none">Marca que nasce estrategica e vive no digital.</p>
           </div>
