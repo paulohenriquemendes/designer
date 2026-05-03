@@ -9,7 +9,7 @@ export default function Processo() {
         <div className="mt-12 grid gap-px overflow-hidden border border-line bg-line md:grid-cols-3 lg:grid-cols-6">
           {steps.map((step, index) => (
             <article key={step} className="bg-paper p-6">
-              <span className="text-sm font-black text-signal">{String(index + 1).padStart(2, '0')}</span>
+              <span className="text-sm font-black text-cobalt">{String(index + 1).padStart(2, '0')}</span>
               <h3 className="mt-12 text-xl font-black">{step}</h3>
             </article>
           ))}

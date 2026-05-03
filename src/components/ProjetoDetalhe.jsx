@@ -23,7 +23,7 @@ export default function ProjetoDetalhe({ project, onClose }) {
       <div className="mx-auto max-w-6xl bg-[#f3f6f8] text-ink shadow-premium">
         <div className="sticky top-0 z-20 flex items-center justify-between gap-4 border-b border-line bg-paper/95 p-4 backdrop-blur">
           <div>
-            <p className="text-xs font-bold uppercase tracking-[0.22em] text-signal">{project.category}</p>
+            <p className="text-xs font-bold uppercase tracking-[0.22em] text-cobalt">{project.category}</p>
             <p className="mt-1 line-clamp-1 font-black">{project.title}</p>
           </div>
           <div className="flex items-center gap-2">
@@ -39,7 +39,7 @@ export default function ProjetoDetalhe({ project, onClose }) {
 
         <div className="mx-auto max-w-5xl px-4 py-8 sm:px-8 lg:py-12">
           <header className="mb-8 bg-paper p-5 shadow-sm sm:p-8">
-            <p className="text-xs font-bold uppercase tracking-[0.22em] text-signal">{project.category}</p>
+            <p className="text-xs font-bold uppercase tracking-[0.22em] text-cobalt">{project.category}</p>
             <h2 className="mt-3 text-3xl font-black leading-tight sm:text-5xl">{project.title}</h2>
             <p className="mt-5 text-lg leading-8 text-graphite">{project.description}</p>
             <dl className="mt-8 grid gap-4 border-y border-line py-6 sm:grid-cols-[0.4fr_1fr]">

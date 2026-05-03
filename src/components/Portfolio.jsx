@@ -61,7 +61,7 @@ export default function Portfolio({ projects, loading, error, onOpenProject }) {
                   <img className="h-full w-full object-cover transition duration-700 group-hover:scale-105" src={project.cover} alt={project.title} loading="lazy" />
                 </span>
                 <span className="block p-5">
-                  <span className="text-xs font-bold uppercase tracking-[0.2em] text-signal">{project.category}</span>
+                  <span className="text-xs font-bold uppercase tracking-[0.2em] text-cobalt">{project.category}</span>
                   <span className="mt-3 block text-2xl font-black leading-tight">{project.title}</span>
                   <span className="mt-4 line-clamp-2 block leading-7 text-muted">{project.description}</span>
                   <span className="mt-5 flex flex-wrap gap-2">
