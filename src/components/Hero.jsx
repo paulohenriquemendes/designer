@@ -4,6 +4,7 @@ import BrandLogo from './BrandLogo.jsx'
 const WHATSAPP_NUMBER = '5585992994767'
 
 export default function Hero({ featuredProject }) {
+  const assetBase = import.meta.env.BASE_URL
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent('Olá, Paulo! Quero conversar sobre um projeto de identidade visual.')}`
 
   return (
@@ -35,11 +36,11 @@ export default function Hero({ featuredProject }) {
         <div className="relative min-h-[440px] lg:min-h-[580px]">
           <div className="absolute left-0 top-0 z-10 w-40 border border-line bg-paper p-3 text-ink sm:w-52">
             <div className="mb-4 grid h-16 w-16 place-items-center bg-ink p-3">
-              <img className="h-full w-full object-contain" src="/brand/simbolo.svg" alt="Símbolo Paulo Henrique Mendes" />
+              <img className="h-full w-full object-contain" src={`${assetBase}brand/simbolo.svg`} alt="Símbolo Paulo Henrique Mendes" />
             </div>
             <div className="bg-ink p-3">
-              <p className="text-xs font-bold uppercase tracking-[0.2em] text-signal">Do Briefing ao Deploy</p>
-              <p className="mt-3 text-2xl font-black leading-none text-signal">Marca com conceito, aplicação e presença digital.</p>
+              <p className="text-xs font-bold uppercase tracking-[0.2em] text-line">Do Briefing ao Deploy</p>
+              <p className="mt-3 text-2xl font-black leading-none text-line">Marca com conceito, aplicação e presença digital.</p>
             </div>
           </div>
           <div className="absolute right-0 top-10 h-[74%] w-[82%] overflow-hidden border border-paper/15 bg-graphite">
@@ -51,8 +52,8 @@ export default function Hero({ featuredProject }) {
           </div>
           <div className="absolute bottom-0 left-8 right-8 z-20 border border-line bg-paper p-4 text-ink sm:left-16">
             <div className="bg-ink p-4">
-              <p className="text-sm font-bold uppercase tracking-[0.22em] text-signal">Projeto em destaque</p>
-              <h2 className="mt-2 text-2xl font-black text-signal">{featuredProject?.title || 'Identidade visual'}</h2>
+              <p className="text-sm font-bold uppercase tracking-[0.22em] text-line">Projeto em destaque</p>
+              <h2 className="mt-2 text-2xl font-black text-line">{featuredProject?.title || 'Identidade visual'}</h2>
             </div>
           </div>
         </div>
